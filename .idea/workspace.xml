@@ -1,60 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f3736d3-2c56-4899-b630-0e5b2a7fde76" name="Default" comment="index">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/093208827eab357729.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/1036491d1c8f989400.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/110202a564ee852424.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/110604c14397637843.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/113940c5cacc790804.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/134923386f7d953266.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/1426295317cf636880.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/143959f1c8cc774798.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/144551f17aff068676.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/153438e6d041546908.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/1651164c8573062499.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/165519754d1f590889.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/16560660acf0593786.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/1925437dd522005713.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/bar_qq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/bar_qq_group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/block_picture_1471511030.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/block_picture_1473915192.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/block_picture_1473918941.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/block_picture_1473918996.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/block_picture_1473920098.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/block_picture_1473920105.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/block_picture_1473920110.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/browser_update.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/card_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/card_user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/lazyload_class.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/lazyload_course.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/slide1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/slide2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/slide2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/slide3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/slide3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/tag_finished.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/tag_finished@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/tag_live.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/tag_live@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/tag_serialing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/img/tag_serialing@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/flaskweb.iml" afterPath="$PROJECT_DIR$/.idea/flaskweb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="5f3736d3-2c56-4899-b630-0e5b2a7fde76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -285,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521646327086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="index">
+      <created>1521819520222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521819520222</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
