@@ -1,9 +1,11 @@
 {% extends "bootstrap/base.html" %}
 {% block title %}无限流量物联网卡{% endblock title %}
+{%- block styles %}
+    {{ super() }}
+<link href="{{ url_for('static',filename='css/index.css') }}" rel="stylesheet">
+{%- endblock styles %}
 {% block body %}
 {% block navbar %}
-
-{%- endblock navbar %}
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
@@ -44,6 +46,51 @@
         </div><!--/.nav-collapse -->
     </div><!--/.container -->
 </nav>
+{%- endblock navbar %}
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+	<!-- 轮播（Carousel）指标 -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>
+	<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		<div class="item active">
+            <a href="#">
+			<img src="{{ url_for('static',filename='img/1426295317cf636880.png') }}" alt="First slide">
+            </a>
+			<div class="carousel-caption">标题 1</div>
+		</div>
+		<div class="item">
+            <a href="#">
+			<img src="{{ url_for('static',filename='img/1925437dd522005713.jpg') }}" alt="Second slide">
+            </a>
+			<div class="carousel-caption">标题 2</div>
+		</div>
+		<div class="item">
+            <a href="#">
+			<img src="{{ url_for('static',filename='img/1925437dd522005713.jpg') }}" alt="Third slide">
+            </a>
+			<div class="carousel-caption">标题 3</div>
+		</div>
+	</div>
+	<!-- 轮播（Carousel）导航 -->
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	</a>
+</div>
+
+
+
+
 {% block scripts %}
 {{ super() }}
 <script>
