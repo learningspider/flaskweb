@@ -25,9 +25,7 @@ def index():
 #                             known=session.get('known',False),
 #                             current_time=datetime.utcnow())
     return render_template('index.html')
-@main.route('/test')
-def test():
-    return render_template('test.html')
+
 
 @main.route('/base')
 def base():

@@ -1,12 +1,8 @@
-{% extends "bootstrap/base.html" %}
+{% extends "mybase.html" %}
 {% block title %}无限流量物联网卡{% endblock title %}
-{%- block styles %}
-    {{ super() }}
-<link href="{{ url_for('static',filename='css/index.css') }}" rel="stylesheet">
-{%- endblock styles %}
 {% block body %}
 {% block navbar %}
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -48,7 +44,7 @@
 </nav>
 {%- endblock navbar %}
 
-
+{% block carousel %}
 <div id="myCarousel" class="carousel slide" data-ride="carousel" >
 	<!-- 轮播（Carousel）指标 -->
 	<ol class="carousel-indicators">
@@ -87,9 +83,143 @@
 	    <span class="sr-only">Next</span>
 	</a>
 </div>
+{% endblock %}
 
+{% block content %}
+sdfsdfdd
+{% endblock content %}
 
+{% block footer %}
+<div id="footer" class="mar-t50">
+   <div class="runoob-block">
+    <div class="runoob cf">
+     <dl>
+      <dt>
+       在线实例
+      </dt>
+      <dd>
+       ·<a target="_blank" href="/html/html-examples.html">HTML 实例</a>
+      </dd>
+      <dd>
+       ·<a target="_blank" href="/css/css-examples.html">CSS 实例</a>
+      </dd>
+      <dd>
+       ·<a target="_blank" href="/js/js-examples.html">JavaScript 实例</a>
+      </dd>
+      <dd>
+       ·<a target="_blank" href="/ajx/ajax-examples.html">Ajax 实例</a>
+      </dd>
+       <dd>
+       ·<a target="_blank" href="/jquery/jquery-examples.html">jQuery 实例</a>
+      </dd>
+      <dd>
+       ·<a target="_blank" href="/xml/xml-examples.html">XML 实例</a>
+      </dd>
+      <dd>
+       ·<a target="_blank" href="/java/java-examples.html">Java 实例</a>
+      </dd>
 
+     </dl>
+     <dl>
+      <dt>
+      字符集&amp;工具
+      </dt>
+      <dd>
+       · <a target="_blank" href="/charsets/html-charsets.html">HTML 字符集设置</a>
+      </dd>
+      <dd>
+       · <a target="_blank" href="/tags/html-ascii.html">HTML ASCII 字符集</a>
+      </dd>
+     <dd>
+       · <a target="_blank" href="/tags/ref-entities.html">HTML ISO-8859-1</a>
+      </dd>
+      <dd>
+       · <a target="_blank" href="/tags/html-symbols.html">HTML 实体符号</a>
+      </dd>
+      <dd>
+       · <a target="_blank" href="/tags/html-colorpicker.html">HTML 拾色器</a>
+      </dd>
+      <dd>
+       · <a target="_blank" href="//c.runoob.com/front-end/53">JSON 格式化工具</a>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       最新更新
+      </dt>
+                   <dd>
+       ·
+      <a href="http://www.runoob.com/w3cnote/programmer-without-network.html" title="程序员,如果一小时后永久断网,你会干嘛?">程序员,如果一小...</a>
+      </dd>
+              <dd>
+       ·
+      <a href="http://www.runoob.com/w3cnote/about-ie-browser.html" title="关于 IE 浏览器的各种吐槽">关于 IE 浏览器...</a>
+      </dd>
+              <dd>
+       ·
+      <a href="http://www.runoob.com/w3cnote/db-pdf-share.html" title="数据库相关经典电子书分享">数据库相关经典...</a>
+      </dd>
+              <dd>
+       ·
+      <a href="http://www.runoob.com/w3cnote/java-the-different-float-double.html" title="Java 浮点类型 float 和 double 的主要区别">Java 浮点类型 f...</a>
+      </dd>
+              <dd>
+       ·
+      <a href="http://www.runoob.com/w3cnote/linux-shell-brackets-features.html" title="shell 中各种括号的作用()、(())、[]、[[]]、{}">shell 中各种括...</a>
+      </dd>
+              <dd>
+       ·
+      <a href="http://www.runoob.com/w3cnote/website-reward-button.html" title="网站打赏按钮制作">网站打赏按钮制作</a>
+      </dd>
+              <dd>
+       ·
+      <a href="http://www.runoob.com/w3cnote/open-source-license.html" title="各种开源协议介绍">各种开源协议介绍</a>
+      </dd>
+             </dl>
+     <dl>
+      <dt>
+       站点信息
+      </dt>
+      <dd>
+       ·
+       <a target="_blank" href="//mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ssbDyoOAgfLU3crf09venNHd3w" rel="external nofollow">意见反馈</a>
+      </dd>
+      <dd>
+       ·
+      <a target="_blank" href="/disclaimer">免责声明</a>
+       </dd>
+        <dd>
+       ·
+      <a href="javascript:void(0)" onclick="dashangToggle()" style="font-weight:bold;color:#f00;" title="打赏，支持一下">打赏一下</a>
+       </dd>
+      <dd>
+       ·
+       <a target="_blank" href="/aboutus">关于我们</a>
+       </dd>
+      <dd>
+       ·
+      <a target="_blank" href="/archives">文章归档</a>
+      </dd>
+
+     </dl>
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong>关注微信</strong>
+        </div>
+      </div>
+      <div class="share">
+            <img width="128" height="128" src="{{ url_for('static',filename='img/qrcode.png') }}">
+       </div>
+     </div>
+    </div>
+   </div>
+   <div class="w-1000 copyright">
+     Copyright © 2013-2018    <strong><a href="//www.runoob.com/" target="_blank">菜鸟教程</a></strong>&nbsp;
+    <strong><a href="//www.runoob.com/" target="_blank">runoob.com</a></strong> All Rights Reserved. 备案号：闽ICP备15012807号-1
+   </div>
+  </div>
+{% endblock footer %}
 
 {% block scripts %}
 {{ super() }}
@@ -103,6 +233,8 @@
     });
   });
   </script>
-{% endblock %}
-{% endblock%}
+{% endblock  scripts %}
+
+
+{% endblock body%}
 
