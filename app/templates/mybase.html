@@ -5,6 +5,7 @@
 {% endblock styles %}
 {% block body %}
 {% block navbar %}
+<div>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -45,6 +46,7 @@
         </div><!--/.nav-collapse -->
     </div><!--/.container -->
 </nav>
+</div>
 {% endblock navbar %}
 
 {% block carousel %}
@@ -186,10 +188,9 @@
   </div>
 {% endblock footer %}
 
-
-
-
-
+{% block scripts %}
+ {{ super() }}
+    {%- endblock scripts %}
 
 {% endblock body %}
 
