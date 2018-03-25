@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # from datetime import datetime
-from flask import render_template,session,redirect,url_for,flash
+from flask import render_template,session,redirect,url_for,flash,abort
 from . import main
 # from .forms import NameForm
 from .. import db
@@ -9,7 +9,7 @@ from flask_login import login_required,login_user,logout_user
 from ..models import User
 from .forms import LoginForm
 
-@main.route('/secret')
+@main.route('/secret/')
 @login_required
 def secret():
     return '未登录'
@@ -27,11 +27,11 @@ def index():
     return render_template('index.html')
 
 
-@main.route('/base')
+@main.route('/base/')
 def base():
     return render_template('mybase.html')
 
-@main.route('/login',methods=['GET','POST'])
+@main.route('/login/',methods=['GET','POST'])
 def login():
     form = LoginForm()
     if form.validate_on_submit():
@@ -42,13 +42,17 @@ def login():
         flash('error')
     return render_template('main/login.html',form=form)
 
-@main.route('/register',methods=['GET','POST'])
+@main.route('/register/',methods=['GET','POST'])
 def register():
     return render_template('main/register.html')
 
-@main.route('/logout')
+@main.route('/logout/')
 @login_required
 def logout():
     logout_user()
     flash('out')
     return redirect(url_for('main.index'))
+
+@main.route('/error404/')
+def error404():
+    abort(404)
