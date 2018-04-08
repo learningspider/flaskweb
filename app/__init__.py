@@ -27,7 +27,9 @@ def create_app(config_name):
     login_manager.init_app(app)
 
     from .main import main as main_blueprint
+    from .infinite import infinite as infinite_blueprint
     app.register_blueprint(main_blueprint)
+    app.register_blueprint(infinite_blueprint,url_prefix='/infinite')
 
 
 
